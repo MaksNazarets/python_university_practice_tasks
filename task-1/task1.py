@@ -27,7 +27,7 @@ for id, char in enumerate(temp_string):
     else:
         final_string += char
 
-print("Finish string:", final_string)
+print("Final string:", final_string)
 print("Max number of the array:", max(numbers))
 
 for id, number in enumerate(numbers):
