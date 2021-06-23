@@ -145,7 +145,7 @@ def delete_pressed(event):
 window = tk.Tk()
 window['bg'] = '#242424'
 window.title("Task 2")
-window.geometry('680x363')
+window.geometry('685x363')
 window.wm_attributes('-alpha', 0.97)
 window.resizable(width=False, height=False)
 
