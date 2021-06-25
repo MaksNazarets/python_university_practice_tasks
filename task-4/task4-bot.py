@@ -70,22 +70,6 @@ Infection risk:             {country["Infection_Risk"]}
         tb.send_message(message.chat.id, 'Sorry, I don\'t know this country...')
 
 
-       
-# @tb.callback_query_handler(func=lambda call: True)
-# def callback_inline(call):
-#     try:
-#         if call.message:
-#             if call.data == 'get_file':
-#                 with open(f'files/stat_{country["Country"]}.txt', 'w') as file:
-#                     file.write(stat)
-                
-#                 with open(f'files/stat_{country["Country"]}.txt', 'rb') as file:
-#                     tb.send_document(chat_id, file)
-                
-#     except Exception as e:
-#         print(repr(e))
-
-
 tb.polling(none_stop=True)
 
 while True:
